@@ -1,0 +1,40 @@
+/* Style for the container that holds the user data */
+#api-data {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  /* Style for the list of users */
+  ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  /* Style for each individual list item */
+  li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #eef;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Style for the loading message and error message */
+  #api-data {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Optional: Style for the loading message */
+  #api-data:empty {
+    font-size: 18px;
+    color: #888;
+  }
+  
