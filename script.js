@@ -82,9 +82,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isValid) {
             feedbackDiv.style.color = '#28a745';
             feedbackDiv.textContent = 'Registration successful!';
+            form.reset();
         } else {
             feedbackDiv.innerHTML = messages.join('<br>');
             feedbackDiv.style.color = '#dc3545';
         }
+   
     });
+
+    form.addEventListener('reset', function() {
+      document.getElementById('username').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('password').value = '';
+});
 });
